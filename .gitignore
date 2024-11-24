@@ -1,0 +1,18 @@
+# Ignore frontend and backend folders if they have their own repos
+/frontend/.git/
+backend/.git/
+**/.git/
+
+# Ignore other files or folders as needed
+# Ignore node_modules folders anywhere in the project
+**/node_modules/
+
+# Ignore all .env files anywhere in the project
+**/.env
+
+# Ignore venv folders anywhere in the project
+**/venv/
+
+
+**/many-project*.json
+
