@@ -2,7 +2,7 @@
 
 A modern, full-stack calendar application built with React (Frontend) and Django (Backend), featuring real-time event management and Firebase Authentication.
 
-![Calendar Demo](https://via.placeholder.com/800x400?text=Calendar+Demo)
+![Calendar Demo](https://drive.google.com/uc?id=1D6YPMnP-A0c-M7Yu1j8VBx0LuOmjjl5d)
 
 ## 🌟 Key Features
 
