@@ -2,7 +2,7 @@
 
 A full-stack calendar application built with React and Django, featuring real-time event management and seamless user authentication.
 
-![Calendar Demo](https://via.placeholder.com/800x400?text=Calendar+Demo)
+![Calendar Demo](https://drive.google.com/uc?id=1_le17TWEBZPWRtu7VbJ0jTvr9twZLwNZ)
 
 ## ✨ Features
 
