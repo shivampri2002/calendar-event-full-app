@@ -4,8 +4,13 @@ from rest_framework import authentication
 from rest_framework import exceptions
 from django.conf import settings
 from django.contrib.auth.models import User 
+import json
 
-cred = credentials.Certificate(settings.FIREBASE_CREDENTIALS_PATH)
+
+firebase_credentials = settings.FIREBASE_CREDENTIALS_TEXT
+cred_dict = json.loads(firebase_credentials)
+
+cred = credentials.Certificate(cred_dict)
 firebase_admin.initialize_app(cred)
 
 class FirebaseAuthentication(authentication.BaseAuthentication):

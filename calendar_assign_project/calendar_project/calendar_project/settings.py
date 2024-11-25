@@ -149,8 +149,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 FIREBASE_CREDENTIALS_PATH = os.getenv('FIREBASE_CREDENTIALS_PATH')
+FIREBASE_CREDENTIALS_TEXT = os.getenv('FIREBASE_CREDENTIALS_TEXT')
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://localhost:5173",
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:3000",
+#     "http://localhost:5173",
+# ]
+
+CORS_ALLOW_ALL_ORIGINS = True
